@@ -6,3 +6,4 @@ struct Rotor {
 };
 
 bool cargarRotor(const std::string& nombreArchivo, Rotor& nuevoRotor);
+bool validarPermutacion(const std::string& p);
