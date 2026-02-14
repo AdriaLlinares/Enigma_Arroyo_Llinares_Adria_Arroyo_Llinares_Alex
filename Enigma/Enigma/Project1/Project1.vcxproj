@@ -127,11 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="enigma.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="rotor.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="enigma.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="Rotor.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
